@@ -9,8 +9,8 @@ public class EmployeeObject{
         Employee emp_2 = new Employee();
         emp_2.setName("Raj");
         emp_2.setSalary(100000);
-        
-        System.out.println(emp_1.getSalary());
-        System.out.println(emp_2.getSalary());
+
+        System.out.println("salary of "+ emp_1.name + " is " + emp_1.getSalary());
+        System.out.println("salary of "+ emp_2.name + " is " + emp_2.getSalary());
     }
 }
